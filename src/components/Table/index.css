@@ -1,15 +1,16 @@
 .mainContainer {
   height: 100vh;
   width: 100vw;
-  background-color: #f5d0fe;
-}
-
-.box {
-  background-color: #d946ef;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #f5d0fe;
+}
+
+.box {
+  background-color: #ffffff;
+  text-align: center;
   border-radius: 10px;
   padding: 30px;
 }
@@ -17,6 +18,7 @@
 .mini {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .head {
@@ -49,6 +51,8 @@
   background-color: #d946ef;
   color: #ffffff;
   border-radius: 4px;
+  width: 30%;
+  height: 30%;
   padding: 15px;
   font-size: 10px;
 }
